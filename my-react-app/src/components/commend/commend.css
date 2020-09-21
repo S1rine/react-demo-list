@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  padding: 30px;
+}
+.container .add {
+  flex: 2;
+  margin-right: 20px;
+}
+.container .list {
+  flex: 3;
+}

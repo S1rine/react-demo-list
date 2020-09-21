@@ -1,0 +1,38 @@
+.list {
+  width: 100%;
+}
+.list h2 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.list ul {
+  list-style: none;
+}
+.list .list_item {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 10px;
+  position: relative;
+}
+.list .list_item .user {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.list .list_item .content {
+  margin-left: 50px;
+  word-wrap: break-word;
+}
+.list .list_item .delete {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  background-color: #fff;
+  color: #66afe9;
+  cursor: pointer;
+}
+.list .list_item:last-child {
+  border-bottom: 1px solid #ccc;
+}

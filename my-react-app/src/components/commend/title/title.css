@@ -1,0 +1,11 @@
+.title {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding-left: 30px;
+  background-color: #ededed;
+}
+.title .content {
+  font-weight: 400;
+}
