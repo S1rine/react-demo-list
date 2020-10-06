@@ -1,0 +1,25 @@
+/* @import 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css'; */
+@import './border.css';
+@import './resets.css';
+
+.btn {
+  margin-right: 0.05rem;
+  padding: 0.05rem 0.05rem;
+  font-size: 0.14rem;
+  color: #fff;
+  &-primary {
+    background-color: #3399ff;
+  }
+  &-warning {
+    background-color: #ff9900;
+  }
+  &-danger {
+    background-color: #ff6600;
+  }
+  &-default {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+  }
+}

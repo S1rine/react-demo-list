@@ -1,0 +1,32 @@
+.add-input-wrapper {
+  position: fixed;
+  top: 0.44rem;
+  display: flex;
+  height: 0.44rem;
+  width: 100%;
+  padding: 0.05rem 0.15rem;
+  background-color: #fff;
+  font-size: 0.14rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  transform: translateY(-0.44rem);
+  transition: transform 0.5s;
+  &.show {
+    transform: translateY(0);
+  }
+
+  .add-input {
+    width: 100%;
+    padding-left: 0.1rem;
+    border: 1px solid #eee;
+    border-radius: 0.1rem;
+  }
+
+  .add-btn {
+    margin-left: 0.15rem;
+    width: 0.6rem;
+    background-color: #2db7f5;
+    color: #fff;
+    border-radius: 0.05rem;
+  }
+}

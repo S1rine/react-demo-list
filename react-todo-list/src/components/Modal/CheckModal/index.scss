@@ -1,0 +1,10 @@
+.check-modal {
+  margin-bottom: 0.15rem;
+  &.check-btn {
+    text-align: center;
+    margin-bottom: 0;
+    .btn {
+      padding: 0.05rem 0.1rem;
+    }
+  }
+}

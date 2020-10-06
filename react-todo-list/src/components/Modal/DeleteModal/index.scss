@@ -1,0 +1,17 @@
+.delete-modal {
+  margin-bottom: 0.15rem;
+  text-align: center;
+  &.delete-content {
+    padding: 0.1rem;
+    border: 1px solid #eee;
+    textarea {
+      width: 100%;
+    }
+  }
+  &.delete-btn {
+    margin-bottom: 0;
+    .btn {
+      padding: 0.05rem 0.1rem;
+    }
+  }
+}

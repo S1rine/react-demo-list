@@ -1,0 +1,28 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  .inner {
+    margin-top: -30%;
+    background-color: #fff;
+    width: 3rem;
+    .title {
+      padding: 0.1rem 0;
+      background-color: #3399ff;
+      color: #fff;
+      text-align: center;
+      font-size: 0.18rem;
+    }
+    .content {
+      padding: 0.2rem;
+      font-size: 0.14rem;
+    }
+  }
+}
