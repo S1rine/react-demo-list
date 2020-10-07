@@ -7,7 +7,7 @@ export function formatTime(timestamp) {
 
   const y = t.getFullYear(),
     m = t.getMonth() + 1,
-    d = t.getDay(),
+    d = t.getDate(),
     h = _addZero(t.getHours()),
     mm = _addZero(t.getMinutes()),
     s = _addZero(t.getSeconds());
